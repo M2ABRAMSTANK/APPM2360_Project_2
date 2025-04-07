@@ -95,7 +95,7 @@ title('Difference in State Probabilities Over Time');
 
 % Display the result
 disp('4.a');
-disp(D);
+disp(V);
 
 %% 3.4.d
 
@@ -214,9 +214,9 @@ xlabel('Day');
 ylabel('Probability');
 
 %% Saving the Figures
-numFigures = 7;
-for i = 1:numFigures
-    fig = figure(i);
-    % pause(5)
-    print(fig, sprintf('/Users/rowdyer/Documents/Coding/APPM2360_Project_2/Figures/figure%d', i), '-dpng', '-r1000');
-end
+% numFigures = 7;
+% for i = 1:numFigures
+%     fig = figure(i);
+%     % pause(5)
+%     print(fig, sprintf('/Users/rowdyer/Documents/Coding/APPM2360_Project_2/Figures/figure%d', i), '-dpng', '-r1000');
+% end
